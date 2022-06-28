@@ -20,7 +20,7 @@ resource "aws_codepipeline" "codepipeline" {
 
       configuration = {
         Repo            = "aws-elastic-beanstalk-express-js-sample"
-        OAuthToken      = "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"
+        OAuthToken      = "token"
         Branch          = "main"
         Owner           = "sharoon001"
       }
