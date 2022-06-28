@@ -84,7 +84,7 @@ POLICY
 resource "aws_codebuild_source_credential" "githubcredential" {
   auth_type   = "PERSONAL_ACCESS_TOKEN"
   server_type = "GITHUB"
-  token       = "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"
+  token       = "token"
 }
 
 resource "aws_codebuild_project" "codebuild" {
